@@ -11,7 +11,7 @@ const Comment = props => {
       <div className="card-block">
         <p className="card-text">{comment.body}</p>
       </div>
-      <div className="card-footer"> this is the new change
+      <div className="card-footer">
         <Link
           to={`/@${comment.author.username}`}
           className="comment-author">
